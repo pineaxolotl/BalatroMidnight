@@ -7,20 +7,14 @@
 --- VERSION: 1.0.0
 --- DEPENDENCIES: [malverk]
 
-AltTexture{ -- Aure Spectral
-    key = 'aure', -- alt_tex key
-    set = 'Spectral', -- set to act upon
-    path = 'aure_spectral.png', -- path of sprites
-    keys = { -- keys of objects to change
-        'c_aura'
-    },
-    soul_keys = { -- keys of objects to add floating sprites to
-        'c_aura'
-    },
-    localization = { -- keys of objects with new localizations
-        'c_aura'
+AltTexture({ -- Jokers
+    key = 'midnight_jokers', -- alt_tex key
+    set = 'Joker', -- set to act upon
+    path = 'midnight_jokers.png', -- path of sprites
+    loc_txt = {
+        name = 'Midnight Jokers'
     }
-}
+})
 
 TexturePack{ -- Aure
     key = 'aure', -- texpack key
